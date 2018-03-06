@@ -9,6 +9,7 @@ sudo: false
 cache: pip
 
 install:
+  - pip install flake8
   - python setup.py install
 
 before_script:
